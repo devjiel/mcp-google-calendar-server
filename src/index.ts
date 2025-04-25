@@ -4,8 +4,7 @@ import { z } from "zod";
 
 import { listEvents } from "./handlers/calendar.js";
 import { loadAndAuthorize } from "./handlers/auth.js";
-import { fileURLToPath } from "url";
-import path from "path";
+
 const server = new McpServer(
   {
     name: "mcp-google-calendar",
